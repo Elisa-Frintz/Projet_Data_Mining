@@ -3,9 +3,11 @@
 * Frintz Elisa
 
 ## Contexte du projet
-Dans le cadre de notre cours de data mining, nous disposons d’un grand jeu de données contenant 199 variables prédictives et une variable cible « V200 » à partir duquel, nous allons créer trois produits :
-1. Le premier est un programme dont l’objectif est de prédire le plus précisément possible la variable cible « V200 ».
-2. Le second est un système de « scoring » permettant de cibler la modalité « m16 » (les positifs) de la variable cible « V200 ».
-3. Le dernier est une variante du premier programme dont l’objectif est de prédire le plus précisément possible la variable cible « V200_Prim » modifiée via le
-regroupement des modalités de « V200 ». Ces choix de regroupement devront être argumentés.
+Fichier anonymisé : 200 variables (V1…V200) et 494 021 observations dont la variable cible (V200) comporte 23 modalités (m1…m23). 
 
+Trois programmes : 
+1. Prédiction : Prédire le plus précisément possible les valeurs de la variable cible V200.
+2. Scoring : Produire le score d’appartenance à la classe "m16" de la variable cible V200.
+3. Clustering : Prédire le plus précisément possible la variable cible "V200_Prim" modifiée via le regroupement des modalités de V200.
+
+L’objectif est d’appliquer ces programmes sur un jeu de données comportant 4 898 424 observations (~2GB) à l'aide d'une interface graphique. 
